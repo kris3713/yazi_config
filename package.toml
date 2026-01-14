@@ -1,12 +1,12 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "03cdd4b"
+rev = "75f6f72"
 hash = "8da0b15a97b5dfd13941d1ecc617ac7c"
 
 [[plugin.deps]]
 use = "uhs-robert/sshfs"
-rev = "75a025c"
-hash = "e1cebecfee70daef1f97aa083209340c"
+rev = "5edff3b"
+hash = "e92138f6eb884bef96d92b2d114ac927"
 
 [[plugin.deps]]
 use = "Lil-Dank/lazygit"
@@ -15,5 +15,5 @@ hash = "ab2e66065a94cca4886b303518e44bd8"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "9276ffa"
+rev = "4a1802a"
 hash = "b069dba45e199684b16fa12d385642ed"
