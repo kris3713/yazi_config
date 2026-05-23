@@ -14,7 +14,6 @@ show_hidden    = true
 show_symlink   = true
 scrolloff      = 5
 mouse_events   = [ 'click', 'scroll' ]
-title_format   = 'Yazi: {cwd}'
 
 [preview]
 wrap            = 'yes'
@@ -97,9 +96,9 @@ suppress_preload = false
 [plugin]
 fetchers = [
   # Mimetype
-  { id = 'mime', url = '*/',         run = 'mime.dir', prio = 'high' },
-  { id = 'mime', url = 'local://*',  run = 'mime.local', prio = 'high' },
-  { id = 'mime', url = 'remote://*', run = 'mime.remote', prio = 'high' },
+  { id = 'mime', group = 'mimetype', url = '*/',         run = 'mime.dir', prio = 'high' },
+  { id = 'mime', group = 'mimetype', url = 'local://*',  run = 'mime.local', prio = 'high' },
+  { id = 'mime', group = 'mimetype', url = 'remote://*', run = 'mime.remote', prio = 'high' },
 ]
 spotters = [
   { url = '*/', run = 'folder' },
